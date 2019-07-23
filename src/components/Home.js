@@ -9,7 +9,7 @@ class Home extends Component {
     render() {
         
         return (
-            <View>
+            <View style={{flex: 1}}>
                 <Header title="Tech Stack" />
                 <LibraryList />
             </View>

@@ -1,6 +1,6 @@
-export const selectedLibraries = (libraries) => {
+export const selectLibrary = (libraryId) => {
     return {
-        type: 'LIBRARIES_SELECTED',
-        payload: libraries
+        type: 'SELECT_LIBRARY',
+        payload: libraryId
     };
 }; 
