@@ -1,14 +1,22 @@
 import React from 'react';
-import { StyleSheet, Text, View } from 'react-native';
+import { Provider } from 'react-redux';
+import { createStore } from 'redux';
+import { StyleSheet } from 'react-native';
+import Home from './src/components/Home';
+import reducers from './src/reducers';
 
-export default function App() {
-  return (
-    <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
-    </View>
-  );
+
+const store = createStore(reducers);
+
+export default class App extends React.Component {
+  render(){
+    return (
+      <Provider store={store}>
+        <Home />
+      </Provider>
+    );
+  }
 }
-
 const styles = StyleSheet.create({
   container: {
     flex: 1,

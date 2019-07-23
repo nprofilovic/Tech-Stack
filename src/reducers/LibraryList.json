@@ -1,0 +1,18 @@
+[
+    {
+        "id": 0,
+        "title": "Webpack", 
+        "description": "Webpack is a module bundler. It packs CommonJS / AMD"
+    },
+    {
+        "id": 1,
+        "title": "React", 
+        "description": "Webpack is a module bundler. It packs CommonJS / AMD"
+    },
+    {
+        "id": 2,
+        "title": "Redux", 
+        "description": "Webpack is a module bundler. It packs CommonJS / AMD"
+    }
+
+]
